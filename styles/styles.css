@@ -1,0 +1,98 @@
+
+#wholepage{
+    min-height:100%;
+    background-image: url('../images/background.png');}
+  }
+
+#container{
+  width:100%;
+  height:100%;
+  margin: 0 auto;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+header>img{
+    display: inline-block;
+    margin-left: 25px;
+    width:130px;
+    height:100px;
+}
+
+.head_right{
+    display: inline-block;
+   text-align: right;
+   margin-block-start: 10px;
+   font-family: 'Gothic A1', sans-serif;
+}
+
+.head_right a{
+    color: black;
+    margin-left: 10px;
+}
+
+.head_right a[href]{
+    color:rgb(81, 65, 226);
+}
+
+.menu_bar{
+
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 600;
+    font-size: 15pt;
+}
+.menu{
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 5px 60px;
+
+}
+
+.menu a{
+    
+    text-decoration: none;
+    color: black;
+  }
+
+#inner-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#side_content{
+  border: solid black;
+  width: 600px; height: 600px;
+
+  }
+
+#report_preview{
+  border: solid black;
+  width: 900px; height: 600px;
+
+
+  }
+
+  #footer{
+    
+    width: 1800px; height: 100px;
+    /*transform: translateX(5%);*/
+    
+    
+    }
+/*여기 부터 로그인 페이지만의 css*/
+#login_container{
+  min-height:100%;
+/*background: rgb(72,65,187);
+background:linear-gradient(90deg,rgba(133,165,250,1) 30%,
+ rgba(164,237,251,1) 74%, rgba(0,212,255,1) 100%);*/
+ background-color: white;
+
+}
